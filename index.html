@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
@@ -238,7 +238,7 @@
                </div>
                <!-- /.contacts-data -->
                <div class="social-links">
-                  <a href="https://twitter.com/" class="social-link" target="_blank"><img src="img\social\twitter.svg"
+                  <a href="https://twitter.com/" class="social-link" target="_blank"><img src="img/social/twitter.svg"
                         alt="twitter"></a>
                   <a href="https://www.instagram.com/" class="social-link" target="_blank"><img
                         src="img/social/instagram.svg" alt="instagram"></a>
@@ -255,21 +255,21 @@
    </footer>
 
 
-
+   <script src="js/swiper.min.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script>new WOW().init();</script>
+   <script>
+      var mySwiper = new Swiper('.swiper-container', {
+         pagination: {
+            el: '.projects-pagination',
+            bulletClass: 'projects-bullet',
+            bulletActiveClass: 'projects-bullet-active',
+            clickable: true
+         },
+      });
+   </script>
 </body>
-<script src="js/swiper.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
-<script>
-   var mySwiper = new Swiper('.swiper-container', {
-      pagination: {
-         el: '.projects-pagination',
-         bulletClass: 'projects-bullet',
-         bulletActiveClass: 'projects-bullet-active',
-         clickable: true
-      },
-   });
-</script>
+
 
 </html>
